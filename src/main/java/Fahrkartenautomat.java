@@ -42,10 +42,21 @@ class Fahrkartenautomat {
 
         Scanner tastatur = new Scanner(System.in);
         System.out.print("Zu zahlender Betrag (Euro): ");
-        zuZahlenderBetrag = tastatur.nextFloat(); // Wert für "zuZahlenderBetrag" wird festgelegt durch die Eingabe
+        zuZahlenderBetrag = tastatur.nextFloat();// Wert für "zuZahlenderBetrag" wird festgelegt durch die Eingabe
+        if (zuZahlenderBetrag <= 0){
+            System.out.println("Bitte geben sie einen gültigen Preis an");
+            return fahrkartenbestellungerfassen();
+        }
         System.out.print("Anzahl der Tickets: ");
-        int maxlength = 10;
-        anzahlTickets = tastatur.nextInt(maxlength);// Wert für "anzahlTickets" wird festgelegt durch die Eingabe
+        anzahlTickets = tastatur.nextInt();// Wert für "anzahlTickets" wird festgelegt durch die Eingabe
+        if (anzahlTickets > 10){
+            System.out.println("Fehler: die maximale Anzahl an Tickets sind 10");
+            return fahrkartenbestellungerfassen();
+        }
+        if (anzahlTickets < 1){
+            System.out.println("Fehler: die minimale Anzahl an Tickets ist 1");
+            return fahrkartenbestellungerfassen();
+        }
 
         gesamterBetrag = anzahlTickets * zuZahlenderBetrag;
         return gesamterBetrag;
