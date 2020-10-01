@@ -50,11 +50,11 @@ class Fahrkartenautomat {
         System.out.print("Anzahl der Tickets: ");
         anzahlTickets = tastatur.nextInt();// Wert für "anzahlTickets" wird festgelegt durch die Eingabe
         if (anzahlTickets > 10){
-            System.out.println("Fehler: sie haben keine Zahl von 1-10 eingegeben, geben Sie bitte eine andere Anzahl an");
+            System.out.println("Fehler: der gültige Anzahlbereich ist von 1-10, geben Sie bitte den Ticketpreis neu ein und eine gültige Ticketanzahl");
              return fahrkartenbestellungerfassen();
         }
         if (anzahlTickets < 1){
-            System.out.println("Fehler: sie haben keine Zahl von 1-10 eingegeben, geben Sie bitte eine andere Anzahl an");
+            System.out.println("Fehler: der gültige Anzahlbereich ist von 1-10, geben Sie bitte den Ticketpreis neu ein und eine gültige Ticketanzahl");
             return fahrkartenbestellungerfassen();
         }
 
