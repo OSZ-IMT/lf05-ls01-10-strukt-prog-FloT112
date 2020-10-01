@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "testFahrkartenbestellungErfassen1",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassen1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassen1",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassen2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassen3",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassen3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenBezahlen1",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenBezahlen1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenBezahlen2",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenBezahlen2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenBezahlen3",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenBezahlen3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenAusgeben",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenAusgeben",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 3
+    },
+    {
+      "name": "testRueckgeldAusgeben1",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testRueckgeldAusgeben1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testRueckgeldAusgeben2",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testRueckgeldAusgeben2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testRueckgeldAusgeben3",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testRueckgeldAusgeben3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassenAnzahlIf0",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassenAnzahlIf0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassenAnzahl11",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassenAnzahl11",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassenAnzahl555",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassenAnzahl555",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassenPreis0",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassenPreis0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassenPreisNeg1",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassenPreisNeg1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "testFahrkartenbestellungErfassenPreis2",
+      "setup": "",
+      "run": "gradle test --tests TestFahrkartenautomat.testFahrkartenbestellungErfassenPreis2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}
