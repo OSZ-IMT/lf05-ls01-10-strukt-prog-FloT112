@@ -44,17 +44,17 @@ class Fahrkartenautomat {
         System.out.print("Zu zahlender Betrag (Euro): ");
         zuZahlenderBetrag = tastatur.nextFloat();// Wert für "zuZahlenderBetrag" wird festgelegt durch die Eingabe
         if (zuZahlenderBetrag <= 0){
-            System.out.println("Bitte geben sie einen gültigen Preis an");
-            return fahrkartenbestellungerfassen();
+            System.out.println("Der von Ihnen eingegebene Preis ist nicht gültig, der Preis wird nun automatisch auf 1 gesetzt.");
+            zuZahlenderBetrag = 1;
         }
         System.out.print("Anzahl der Tickets: ");
         anzahlTickets = tastatur.nextInt();// Wert für "anzahlTickets" wird festgelegt durch die Eingabe
         if (anzahlTickets > 10){
-            System.out.println("Fehler: die maximale Anzahl an Tickets sind 10");
-            return fahrkartenbestellungerfassen();
+            System.out.println("Fehler: sie haben keine Zahl von 1-10 eingegeben, geben Sie bitte eine andere Anzahl an");
+             return fahrkartenbestellungerfassen();
         }
         if (anzahlTickets < 1){
-            System.out.println("Fehler: die minimale Anzahl an Tickets ist 1");
+            System.out.println("Fehler: sie haben keine Zahl von 1-10 eingegeben, geben Sie bitte eine andere Anzahl an");
             return fahrkartenbestellungerfassen();
         }
 
