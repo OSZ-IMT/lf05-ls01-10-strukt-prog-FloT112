@@ -16,7 +16,7 @@ class Fahrkartenautomat {
         float eingeworfeneMuenze = 0;
         float rueckgabebetrag = 0;
         float eingegebenerBetrag;
-        float anzahlTickets = 0;
+        int anzahlTickets = 0;
         float gesamterBetrag;
         float rueckgeld;
         // zuZahlenderbetrag, eingezahlterGesamtbetrag, eingeworfeneMuenze, rueckgabebetrag, eingegebenerBetrag und anzahlTickets sind die Variablen (d auch) mit Dateityp: float
@@ -44,7 +44,8 @@ class Fahrkartenautomat {
         System.out.print("Zu zahlender Betrag (Euro): ");
         zuZahlenderBetrag = tastatur.nextFloat(); // Wert für "zuZahlenderBetrag" wird festgelegt durch die Eingabe
         System.out.print("Anzahl der Tickets: ");
-        anzahlTickets = tastatur.nextFloat();// Wert für "anzahlTickets" wird festgelegt durch die Eingabe
+        int maxlength = 10;
+        anzahlTickets = tastatur.nextInt(maxlength);// Wert für "anzahlTickets" wird festgelegt durch die Eingabe
 
         gesamterBetrag = anzahlTickets * zuZahlenderBetrag;
         return gesamterBetrag;
@@ -55,7 +56,6 @@ class Fahrkartenautomat {
         float eingezahlterGesamtbetrag = 0;
         float eingeworfeneMuenze;
         float eingegebenerBetrag;
-        float anzahlTickets;
         float rueckgeld;
         Scanner tastatur = new Scanner(System.in);
         while (eingezahlterGesamtbetrag < zuZahlenderBetrag) { // eine Schleife in der festgelegt ist, so lange der "eingezahlterGesamtbetrag" kleiner als das Produkt von "zuZahlenderBetrag" und "anzahlTickets" beginnt die Schleife immer wieder von neu
